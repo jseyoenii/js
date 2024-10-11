@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+</head>
+<body>
+    <h1> 회원가입 </h1>
+
+    <from action="index.php" method="post">
+
+        아이디: <input type="text" name="id"> <br>
+        패스워드: <input type="password" name="pass"> <br>
+        패스워드 확인: <input type="password"> <br>
+        주소: <input type="text" name="addr"> <br>
+        성별:
+        <input type="radio" name="gender" value="male">남성
+        <input type="radio" name="gender" value="female">여성 <br>
+
+        좋아하는 과일:<br>
+        <input type="checkbox" name="fruits" value="apple" checked>사과
+        <input type="checkbox" name="fruits" value="banana" checked>바나나 <br>
+        <input type="checkbox" name="fruits" value="grape">포도
+        <input type="checkbox" name="fruits" value="orange">오렌지<br>
+
+
+        <input type="submit">
+ 
+     </from>
+
+</body>
+</html>
